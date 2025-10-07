@@ -21,11 +21,14 @@ export const updateSearchCount = async (searchTerm, movie) => {
         count: doc.count + 1,
       });
     } else {
+      const posterUrl = movie?.poster_path
+        ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
+        : null;
       await database.createDocument(DATABASE_ID, COLLECTION_ID, ID.unique(), {
         searchTerm,
         count: 1,
         movie_id: movie.id,
-        poster_url: `https://image.tmdb.org/t/p/w500${movie.poster_path}`,
+        ...(posterUrl ? { poster_url: posterUrl } : {}),
       });
     }
   } catch (error) {
