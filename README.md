@@ -15,13 +15,14 @@ A simple movie browsing website built with **React**, **Vite**, and **TailwindCS
 - Dynamic movie cards and hover effects
 
 ## 🔗 Live Demo
-👉 [View Live](https://movieapp-amir.vercel.app)
+👉 [View Live](movie-app-alpha-six-58.vercel.app)
 
 ## 💾 Repository
 🔗 [GitHub Repo](https://github.com/AmirElahpour/movie-app)
 
 ## 🖼️ Screenshots
-![Home](./public/screenshot.png)
+![Home-laptop]([[./public/screenshot.png](https://github.com/AmirElahpour/movie-app/blob/main/public/movieapp-mockup-laptop.png?raw=true)](https://github.com/AmirElahpour/movie-app/blob/main/public/movieapp-mockup-laptop.png?raw=true))
+![Home-phone]([[[./public/screenshot.png](https://github.com/AmirElahpour/movie-app/blob/main/public/movieapp-mockup-laptop.png?raw=true)](https://github.com/AmirElahpour/movie-app/blob/main/public/movieapp-mockup-laptop.png?raw=true)](https://github.com/AmirElahpour/movie-app/blob/main/public/movieapp-mockup-phone.png?raw=true))
 
 ## ⚙️ Setup
 ```bash
