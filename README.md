@@ -21,8 +21,8 @@ A simple movie browsing website built with **React**, **Vite**, and **TailwindCS
 🔗 [GitHub Repo](https://github.com/AmirElahpour/movie-app)
 
 ## 🖼️ Screenshots
-![Home-laptop]([[./public/screenshot.png](https://github.com/AmirElahpour/movie-app/blob/main/public/movieapp-mockup-laptop.png?raw=true)](https://github.com/AmirElahpour/movie-app/blob/main/public/movieapp-mockup-laptop.png?raw=true))
-![Home-phone]([[[./public/screenshot.png](https://github.com/AmirElahpour/movie-app/blob/main/public/movieapp-mockup-laptop.png?raw=true)](https://github.com/AmirElahpour/movie-app/blob/main/public/movieapp-mockup-laptop.png?raw=true)](https://github.com/AmirElahpour/movie-app/blob/main/public/movieapp-mockup-phone.png?raw=true))
+![Home-laptop](https://github.com/AmirElahpour/movie-app/blob/main/public/movieapp-mockup-laptop.png?raw=true)
+![Home-phone](https://github.com/AmirElahpour/movie-app/blob/main/public/movieapp-mockup-phone.png?raw=true)
 
 ## ⚙️ Setup
 ```bash
