@@ -1,16 +1,31 @@
-# React + Vite
+# 🎬 Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple movie browsing website built with **React**, **Vite**, and **TailwindCSS**.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
+- React (Vite)
+- TailwindCSS
+- Axios (for fetching data)
+- TMDB API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Browse trending and popular movies
+- Responsive UI (mobile-friendly)
+- Search movies by name
+- Dynamic movie cards and hover effects
 
-## React Compiler
+## 🔗 Live Demo
+👉 [View Live](https://movieapp-amir.vercel.app)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💾 Repository
+🔗 [GitHub Repo](https://github.com/AmirElahpour/movie-app)
 
-## Expanding the ESLint configuration
+## 🖼️ Screenshots
+![Home](./public/screenshot.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Setup
+```bash
+git clone https://github.com/amir/movie-app.git
+cd movie-app
+npm install
+npm run dev
