@@ -11,6 +11,10 @@ const client = new Client()
 const database = new Databases(client);
 
 export const updateSearchCount = async (searchTerm, movie) => {
+  if (!PROJECT_ID || !DATABASE_ID || !COLLECTION_ID) {
+    console.warn("Appwrite env not configured; skipping updateSearchCount");
+    return;
+  }
   try {
     const result = await database.listDocuments(DATABASE_ID, COLLECTION_ID, [
       Query.equal("searchTerm", searchTerm),
@@ -37,6 +41,10 @@ export const updateSearchCount = async (searchTerm, movie) => {
 };
 
 export const getTrendingMovies = async () => {
+  if (!PROJECT_ID || !DATABASE_ID || !COLLECTION_ID) {
+    console.warn("Appwrite env not configured; returning empty trending list");
+    return [];
+  }
   try {
     const result = await database.listDocuments(DATABASE_ID, COLLECTION_ID, [
       Query.limit(5),
@@ -45,5 +53,6 @@ export const getTrendingMovies = async () => {
     return result.documents;
   } catch (error) {
     console.error(error);
+    return [];
   }
 };
