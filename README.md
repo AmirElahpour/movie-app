@@ -5,14 +5,14 @@ A simple movie browsing website built with **React**, **Vite**, and **TailwindCS
 ## 🚀 Tech Stack
 - React (Vite)
 - TailwindCSS
-- Axios (for fetching data)
 - TMDB API
 
 ## ✨ Features
 - Browse trending and popular movies
 - Responsive UI (mobile-friendly)
 - Search movies by name
-- Dynamic movie cards and hover effects
+- Trending movies
+- Dynamic movie cards
 
 ## 🔗 Live Demo
 👉 [View Live](movie-app-alpha-six-58.vercel.app)
