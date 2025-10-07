@@ -15,7 +15,7 @@ A simple movie browsing website built with **React**, **Vite**, and **TailwindCS
 - Dynamic movie cards
 
 ## 🔗 Live Demo
-👉 [View Live](movie-app-alpha-six-58.vercel.app)
+👉 [View Live](https://movie-app-alpha-six-58.vercel.app/)
 
 ## 💾 Repository
 🔗 [GitHub Repo](https://github.com/AmirElahpour/movie-app)
